@@ -4,11 +4,13 @@ Grayish Blue: hsl(234, 14%, 74%)
 Dark Grayish Blue: hsl(232, 13%, 33%) */
 .year {
   color: hsl(234, 14%, 74%);
-  margin-right: -85px;
+  padding-right: 15px;
+  /* margin-right: -85px; */
 }
 .month {
   color: hsl(234, 14%, 74%);
-  margin-left: -85px;
+  padding-left: 15px;
+  /* margin-left: -85px; */
 }
 
 * {
@@ -16,67 +18,50 @@ Dark Grayish Blue: hsl(232, 13%, 33%) */
   padding: 0;
   box-sizing: border-box;
 }
-body {
-}
+
 .main {
   font-family: "Montserrat", sans-serif;
   display: flex;
-
-  /* width: 1440px; */
+  justify-content: space-around;
   height: 100vh;
   flex-direction: column;
-  /* justify-content: spa; */
-  gap: 100px;
   align-items: center;
-
   background-image: url("./images/bg-bottom.svg"), url("./images/bg-top.svg");
   background-repeat: no-repeat, no-repeat;
   background-color: hsl(240, 78%, 98%);
   background-position: bottom left, top right;
-  /* background-position-x: 1px; */
-  /* background-image: 
-  background-repeat: no-repeat;
-  background-color: hsl(240, 78%, 98%);
-  background-position: top right;
-  background-position-x: 890px;
-  background-position-y: -100px; */
-  /* background-position: 0px 0px; */
-  background-size: 30%;
+  background-size: 30% 50%, 35% 65%;
 }
 .upper {
   display: flex;
-  height: 150px;
-  width: 300px;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
-  justify-content: space-around;
-  margin-top: 50px;
+
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 .price {
+  display: flex;
+  margin-top: 10px;
   font-family: Montserrat, sans-serif;
-  height: 31px;
-  width: 255px;
+
   display: block;
   font-weight: bold;
   font-size: 24px;
   color: hsl(232, 13%, 33%);
 }
 .time {
+  margin-top: 25px;
   display: flex;
-  height: 50px;
-  width: 100%;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: -55px;
+
+  justify-content: space-between;
   font-size: 14px;
 }
 .lower {
   display: flex;
-  width: 786px;
-  height: 380px;
   padding-bottom: 125px;
   justify-content: center;
   align-items: center;
@@ -88,9 +73,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 340px;
   width: 250px;
-  margin: 0px;
   color: hsl(233, 13%, 49%);
   border-radius: 8.5px;
   justify-content: space-around;
@@ -100,7 +83,7 @@ body {
 
 .line {
   height: 0.6px;
-  width: 75%;
+  width: 80%;
   align-self: center;
   border: 0px;
   background-color: hsl(234, 14%, 74%);
@@ -109,8 +92,8 @@ body {
 .doller2,
 .doller3 {
   display: flex;
-  text-align: center;
-  align-self: center;
+  justify-content: center;
+  align-items: center;
   font-size: 20px;
   color: hsl(232, 13%, 33%);
 }
@@ -121,34 +104,36 @@ body {
 .rate2,
 .rate3 {
   font-size: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .dol1,
 .dol2,
 .dol3 {
-  align-self: center;
+  margin-top: 2px;
   padding-right: 6px;
 }
 .storege1,
 .storage2,
 .storage3 {
   font-size: 12.4px;
-  margin-top: -6px;
-  margin-bottom: -6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .allow1,
 .allow2,
 .allow3 {
   font-size: 12.4px;
-  margin-top: -7px;
-  margin-bottom: -7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .limit,
 .limit2,
 .limit3 {
   font-size: 12.4px;
-  margin-top: -7px;
-  margin-bottom: -7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .but2 {
   display: flex;
@@ -158,13 +143,15 @@ body {
 .button3,
 .button1 {
   height: 34px;
-  width: 180px;
+  width: 200px;
   border-radius: 6px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-top: 25px;
   border: none;
   color: white;
+
   font-size: 12.5px;
+  margin-bottom: 30px;
 }
 .button2 {
   color: hsl(236, 72%, 79%);
@@ -177,7 +164,7 @@ body {
 .div2 {
   background-color: hsl(237, 72%, 70%);
   color: white;
-  height: 370px;
+
   padding-top: 20px;
   padding-bottom: 15px;
   padding-top: 10px;
