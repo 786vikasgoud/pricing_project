@@ -81,7 +81,7 @@ body {
   /* border: 2px solid red; */
   justify-content: center;
   align-items: center;
-  margin-top: -24px;
+  margin-top: -64px;
 }
 .div1,
 .div2,
@@ -179,8 +179,8 @@ body {
 }
 .div2 {
   background-color: hsl(237, 72%, 70%);
-  padding-top: 13.5px;
-  padding-bottom: 13.5px;
+  padding-top: 16.5px;
+  padding-bottom: 16.5px;
   color: white;
 }
 .button1,
